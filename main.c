@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
 
-    float a = 9;
-    printf("%0.2f",a);
+    int myint = 6.7622;
+    printf("Result = %d\n", myint);
+
+    return 0;
 
 }

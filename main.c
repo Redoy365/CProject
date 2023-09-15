@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include <stdbool.h>
+
 int main(){
-    int x = 5;
+    
+bool x = true;
+bool y = false;
 
-    int y = x++;
-    int z = ++x;
-
-    printf("%d\n",y);
-    printf("%d\n",z);
+printf("%d\n",x);
+printf("%d\n",y);
 
 }

@@ -1,10 +1,11 @@
 #include<stdio.h>
-
 int main(){
-    
-    const int a=4;
+    int x = 5;
 
-    printf("%d\n", a);
+    int y = x++;
+    int z = ++x;
 
-    
+    printf("%d\n",y);
+    printf("%d\n",z);
+
 }

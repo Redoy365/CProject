@@ -1,9 +1,26 @@
 #include<stdio.h>
 int main(){
 
-    int myint = 6.7622;
-    printf("Result = %d\n", myint);
+    int a = 10;
+    int b = 2;
 
-    return 0;
+    int sum,sub,mul;
+    float div;
+    char str;
+    char text;
+    
+    sum = a+b;
+    sub = a-b;
+    mul = a*b;
+    div = a/b;
+    str = 'a';
+    text["Hello Text"];
+
+    printf("%d\n", sum);
+    printf("%d\n", sub);
+    printf("%d\n", mul);
+    printf("%f\n", div);
+    printf("%c\n", str);
+    printf("%s\n", text);
 
 }

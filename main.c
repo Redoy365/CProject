@@ -1,12 +1,25 @@
 #include<stdio.h>
-#include <stdbool.h>
 
 int main(){
+
+    int a;
+    printf("Enter a number.");
+    scanf("%d", &a);
+
+    if (a>0)
+    {
+        printf("The number is Positive.");
+    }
+
+    else if (a<0)
+    {
+        printf("The number is Negative.");
+    }
+    else
+    {
+        printf("The number is Zero.");
+    }
     
-bool x = true;
-bool y = false;
-
-printf("%d\n",x);
-printf("%d\n",y);
-
+    return 0;
 }
+

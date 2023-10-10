@@ -1,25 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <ctype.h>
 
-int main(){
-
-    int a;
-    printf("Enter a number.");
-    scanf("%d", &a);
-
-    if (a>0)
+int main()
+{
+    char c;
+    c='f';
+    if(isdigit(c))
     {
-        printf("The number is Positive.");
+        printf("Yes");
     }
-
-    else if (a<0)
-    {
-        printf("The number is Negative.");
-    }
-    else
-    {
-        printf("The number is Zero.");
+    else{
+        printf("no");
     }
     
+
     return 0;
 }
-

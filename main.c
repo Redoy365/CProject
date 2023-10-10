@@ -1,21 +1,29 @@
-#include <stdio.h>
-int main() {  
-    char c;
-    printf("Enter a character: ");
-    scanf("%c", &c);  
+#include<stdio.h>
+
+int main(){
+    char a = 'A';
+    switch (a)
+    {
+    case 'A':
+        printf("Yes it is A");
+        break;
     
-    // %d displays the integer value of a character
-    // %c displays the actual character
-    printf("ASCII value of %c = %d", c, c);
+    case 'G':
+        printf("Yes it is G");
+        break;
     
-    return 0;
+    default:
+    printf("Other char");
+        break;
+    }
 }
+
 
 /*
 
 git add .
 git status
 git log -1
-git commit - m ""
+git commit -m " "
 
 */

@@ -3,16 +3,11 @@
 
 int main()
 {
-    char c;
-    c='f';
-    if(isdigit(c))
-    {
-        printf("Yes");
-    }
-    else{
-        printf("no");
-    }
+    char x[] = "My name is MD.REDOY SARDER. I am a Software Engineer.";
+    char y[] = "Hello";
     
+    printf("x = %d\n",sizeof(x)-1);
+    printf("y = %d\n",sizeof(y)-1);
 
     return 0;
 }

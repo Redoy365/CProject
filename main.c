@@ -1,21 +1,16 @@
 #include <stdio.h>
-#include <ctype.h>
-
 int main()
 {
-    // Data types
-    int a = 5;
-    float b = 3.1416;
-    double c = 3.1415951498093;
-    short d = 20;
-    long e = 829034823;
-    char g = 'A';
+    char chr;
+    printf("Enter a character: ");
+    scanf("%c", &chr);     
 
-    printf("%d\n", a);
-    printf("%f\n", b);
-    printf("%lf\n", c);
-    printf("%hd\n", d);
-    printf("%ld\n", e);
-    printf("%c\n", g);
+    // When %c is used, a character is displayed
+    printf("You entered %c.\n",chr);  
 
+    // When %d is used, ASCII value is displayed
+    printf("ASCII value is %d.", chr);  
+    return 0;
 }
+
+// c operators

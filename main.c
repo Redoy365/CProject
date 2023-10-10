@@ -3,16 +3,19 @@
 
 int main()
 {
-    char x[] = "My name is MD.REDOY SARDER. I am a Software Engineer.";
-    char y[] = "Hello";
-    
-    for (int i = 0; i < sizeof(x); i++)
-    {
-        int z = x[i];
-        
-        printf("%c\n",z);
-    }
-    
+    // Data types
+    int a = 5;
+    float b = 3.1416;
+    double c = 3.1415951498093;
+    short d = 20;
+    long e = 829034823;
+    char g = 'A';
 
-    return 0;
+    printf("%d\n", a);
+    printf("%f\n", b);
+    printf("%lf\n", c);
+    printf("%hd\n", d);
+    printf("%ld\n", e);
+    printf("%c\n", g);
+
 }
